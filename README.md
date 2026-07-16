@@ -1,25 +1,162 @@
-# 💫 About Me:
-💫 About Me:<br>🔭 I’m a software engineer deeply passionate about building apps, websites, and games that combine performance with great user experience. Currently, I’m developing projects across web and game development, including work in Unreal Engine.<br><br>👯 I’m eager to collaborate on creative and impactful projects—from modern web apps to immersive game experiences.<br><br>🤝 I’m continuously pushing myself to explore advanced development concepts, including system design, game mechanics, and scalable architectures.<br><br>🌱 I’m actively strengthening my skills in React, MongoDB, and full-stack development, while expanding into game development workflows.<br><br>💬 Ask me about app development, web technologies, new games in town or hackathon experiences.<br><br>⚡ Fun fact: I enjoy blending creativity with technology—whether it’s designing interfaces, editing videos, or building interactive digital experiences from scratch.
+<div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=61DAFB&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Yuvraj+%F0%9F%91%8B;Full-stack+engineer+%2B+applied+ML;Currently+building+Aproxa;React+%7C+FastAPI+%7C+Postgres+%7C+Claude+API" alt="Typing SVG" />
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100023079973971) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/yuuv_sg) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvraj-singh-goraya-68642133b/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/YuV) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@YuvTCO) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yuvgoraya23799@gmail.com) 
+<a href="https://www.linkedin.com/in/yuvraj-singh-goraya-68642133b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:yuvgoraya23799@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://x.com/YuV"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=Yuv1008&style=for-the-badge&color=61DAFB&label=PROFILE+VIEWS" />
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Alpine.js](https://img.shields.io/badge/alpinejs-white.svg?style=for-the-badge&logo=alpinedotjs&logoColor=%238BC0D0) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white) ![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?style=for-the-badge&logo=riotgames&logoColor=white) ![Epic Games](https://img.shields.io/badge/epicgames-%23313131.svg?style=for-the-badge&logo=epicgames&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Yuv1008&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Yuv1008&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Yuv1008&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Yuv1008&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Yuv1008&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
 
 ---
 
+Computer Information Systems student at the University of the Fraser Valley, Software Development concentration, graduating December 2027. I build full-stack products end to end and I ship them.
+
+- 🔭 Building **Aproxa**, an AI-powered campus operating system, with my brother
+- 🌱 Going deep on system design, data structures and algorithms, and AWS
+- 💬 Ask me about React, FastAPI, RAG pipelines, or shipping side projects around a part-time job
+- ⚡ Trilingual in English, Hindi and Punjabi. Messi fan. Will argue about it.
+
+---
+
+## 🚀 Projects
+
+<details open>
+<summary><b>Aproxa</b> — AI-powered campus operating system <i>(in progress)</i></summary>
+<br>
+
+A unified platform that gives students one intelligent interface for everything campus related. Retrieval-augmented generation over institutional data, so answers are grounded in real documents instead of hallucinated.
+
+**Stack:** React Native · Next.js · FastAPI · Supabase · pgvector · Claude API · Stripe
+
+**What I own:** RAG pipeline design, vector search and embeddings, API architecture
+
+<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+
+</details>
+
+<details>
+<summary><b>EventSphere</b> — full-stack event management platform</summary>
+<br>
+
+End-to-end event platform with authentication, event creation, registration flows and an admin dashboard. Built as a real product, not a tutorial clone.
+
+**Stack:** React · FastAPI · PostgreSQL · Tailwind
+
+<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+
+</details>
+
+<details>
+<summary><b>Insider Threat Detection</b> — anomaly detection with autoencoders</summary>
+<br>
+
+Unsupervised detection of anomalous user behaviour using autoencoders and variational autoencoders. Trains on normal activity and flags deviations by reconstruction error, which means it catches threats it has never seen before.
+
+**Stack:** Python · PyTorch · Pandas · NumPy
+
+<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+
+</details>
+
+<details>
+<summary><b>CHRONOVAULT</b> — premium luxury single page app</summary>
+<br>
+
+A high-end retail experience focused on motion, typography and perceived performance. This is the one I point at when someone asks whether I can design as well as build.
+
+**Stack:** React · Tailwind · Framer Motion
+
+<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+
+</details>
+
+<details>
+<summary><b>More</b> — Hoppy Tales, FastCabs, Hotel Management, FIFA WC Simulator</summary>
+<br>
+
+| Project | What it is | Stack |
+|---|---|---|
+| Hoppy Tales | Android storytelling app | Kotlin · Android SDK |
+| FastCabs | Relational database design for a ride-hailing service | MySQL |
+| Hotel Management System | Desktop booking and inventory system | Java |
+| FIFA World Cup Simulator | Tournament simulation engine | C++ |
+
+</details>
+
+---
+
+## 🛠️ Stack
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Backend & Data**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+**ML & Infra**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## 📊 Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Yuv1008&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yuv1008&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=00000000&langs_count=8" />
+
+<img src="https://streak-stats.demolab.com?user=Yuv1008&theme=tokyonight&hide_border=true&background=00000000" />
+
+<details>
+<summary>📈 Contribution activity graph</summary>
+<br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yuv1008&theme=tokyo-night&hide_border=true&bg_color=00000000&area=true" />
+</details>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yuv1008/Yuv1008/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Yuv1008/Yuv1008/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+<details>
+<summary>🎮 Also into</summary>
+<br>
+
+Game development in Unreal Engine, video editing, and interface design. Mostly for fun, occasionally it leaks into the real projects.
+
+</details>
+
+<div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</div>
