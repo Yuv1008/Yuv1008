@@ -11,7 +11,7 @@
 
 ---
 
-Computer Information Systems student at the University of the Fraser Valley, Software Development concentration, graduating December 2027. I build full-stack products end to end and I ship them.
+Computer Information Systems student at the University of the Fraser Valley, Software Development concentration, graduating December 2026. I build full-stack products end to end and I ship them.
 
 - 🔭 Building **Aproxa**, an AI-powered campus operating system, with my brother
 - 🌱 Going deep on system design, data structures and algorithms, and AWS
