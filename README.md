@@ -1,85 +1,74 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=61DAFB&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Yuvraj+%F0%9F%91%8B;Full-stack+engineer+%2B+applied+ML;Currently+building+Aproxa;React+%7C+FastAPI+%7C+Postgres+%7C+Claude+API" alt="Typing SVG" />
+# Hi, I'm Yuvraj 👋
 
-<a href="https://www.linkedin.com/in/yuvraj-singh-goraya-68642133b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+**Full-stack engineer · Applied ML · Currently building UniHelp**
+
+<a href="https://www.linkedin.com/in/YOUR-VANITY-URL/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:yuvgoraya23799@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://x.com/YuV"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=Yuv1008&style=for-the-badge&color=61DAFB&label=PROFILE+VIEWS" />
+<a href="https://playfulltime.com"><img src="https://img.shields.io/badge/FULLTIME-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 
 </div>
 
 ---
 
-Computer Information Systems student at the University of the Fraser Valley, Software Development concentration, graduating December 2026. I build full-stack products end to end and I ship them.
+Computer Information Systems student at the University of the Fraser Valley — Software Development major, AI/ML minor — **graduating December 2026**. I build full-stack products end to end and I ship them.
 
-- 🔭 Building **Aproxa**, an AI-powered campus operating system, with my brother
-- 🌱 Going deep on system design, data structures and algorithms, and AWS
-- 💬 Ask me about React, FastAPI, RAG pipelines, or shipping side projects around a part-time job
+- 🚀 Shipped **[FULLTIME](https://playfulltime.com)** — seven live sports puzzle games on four shared engines
+- 🔭 Building **UniHelp**, an AI campus assistant with RAG over institutional documents
+- ⚙️ Building **Relay**, a distributed job queue in Java 21 modeled on Amazon SQS
+- 🌱 Going deep on distributed systems, data structures & algorithms, and system design
 - ⚡ Trilingual in English, Hindi and Punjabi. Messi fan. Will argue about it.
+
+**Open to New Grad Software Engineer roles starting 2027.**
 
 ---
 
 ## 🚀 Projects
 
-<details open>
-<summary><b>Aproxa</b> — AI-powered campus operating system <i>(in progress)</i></summary>
-<br>
+### [FULLTIME](https://playfulltime.com) — multi-sport puzzle platform · [`repo`](https://github.com/Yuv1008/Fulltime)
 
-A unified platform that gives students one intelligent interface for everything campus related. Retrieval-augmented generation over institutional data, so answers are grounded in real documents instead of hallucinated.
+Seven live sports games built on four shared engines rather than seven separate implementations. A sport-agnostic Postgres schema (`entities` / `entity_facts` with a `jsonb` meta column) supports every sport without per-sport tables. Daily puzzles are generated deterministically with a seeded PRNG (mulberry32 + FNV-1a) keyed to the UTC date, so every player worldwide gets the identical puzzle.
 
-**Stack:** React Native · Next.js · FastAPI · Supabase · pgvector · Claude API · Stripe
+`Next.js 14` · `TypeScript` · `PostgreSQL` · `Supabase` · `Vercel`
 
-**What I own:** RAG pipeline design, vector search and embeddings, API architecture
+---
 
-<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+### Relay — distributed job queue *(in progress)*
 
-</details>
+A job queue modeled on Amazon SQS: at-least-once delivery, per-message visibility timeouts, and dead-letter routing after a configurable retry limit. Structured as a multi-module Gradle build separating the queue engine, API layer, and client library.
 
-<details>
-<summary><b>EventSphere</b> — full-stack event management platform</summary>
-<br>
+`Java 21` · `PostgreSQL` · `Gradle`
 
-End-to-end event platform with authentication, event creation, registration flows and an admin dashboard. Built as a real product, not a tutorial clone.
+---
 
-**Stack:** React · FastAPI · PostgreSQL · Tailwind
+### UniHelp — AI campus assistant *(in progress)*
 
-<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+A retrieval-augmented assistant that answers student questions from institutional documents, grounding every response in source material instead of model recall. I own the RAG pipeline — chunking, embeddings, and vector similarity search — plus the FastAPI backend and API contract.
 
-</details>
+`React Native` · `Next.js` · `FastAPI` · `Supabase` · `pgvector` · `Claude API`
 
-<details>
-<summary><b>Insider Threat Detection</b> — anomaly detection with autoencoders</summary>
-<br>
+---
 
-Unsupervised detection of anomalous user behaviour using autoencoders and variational autoencoders. Trains on normal activity and flags deviations by reconstruction error, which means it catches threats it has never seen before.
+### Insider Threat Detection — anomaly detection with autoencoders
 
-**Stack:** Python · PyTorch · Pandas · NumPy
+Unsupervised detection of anomalous user behaviour using an autoencoder and a variational autoencoder trained solely on normal activity. Deviations are flagged by reconstruction error, which means it catches threats it has never seen before.
 
-<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+`Python` · `PyTorch` · `Pandas` · `NumPy`
 
-</details>
+---
 
 <details>
-<summary><b>CHRONOVAULT</b> — premium luxury single page app</summary>
-<br>
+<summary><b>Earlier projects</b></summary>
 
-A high-end retail experience focused on motion, typography and perceived performance. This is the one I point at when someone asks whether I can design as well as build.
-
-**Stack:** React · Tailwind · Framer Motion
-
-<a href="#"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
-
-</details>
-
-<details>
-<summary><b>More</b> — Hoppy Tales, FastCabs, Hotel Management, FIFA WC Simulator</summary>
 <br>
 
 | Project | What it is | Stack |
 |---|---|---|
+| EventSphere | Full-stack event management platform | React · FastAPI · SQLite |
+| CHRONOVAULT | Premium single-page retail experience | React · Tailwind · Framer Motion |
 | Hoppy Tales | Android storytelling app | Kotlin · Android SDK |
-| FastCabs | Relational database design for a ride-hailing service | MySQL |
+| FastCabs | Relational database design for ride-hailing | MySQL |
 | Hotel Management System | Desktop booking and inventory system | Java |
 | FIFA World Cup Simulator | Tournament simulation engine | C++ |
 
@@ -93,9 +82,10 @@ A high-end retail experience focused on motion, typography and perceived perform
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
@@ -113,12 +103,12 @@ A high-end retail experience focused on motion, typography and perceived perform
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-**ML & Infra**
+**ML & Tools**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
@@ -132,31 +122,4 @@ A high-end retail experience focused on motion, typography and perceived perform
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yuv1008&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yuv1008&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=00000000&langs_count=8" />
 
-<img src="https://streak-stats.demolab.com?user=Yuv1008&theme=tokyonight&hide_border=true&background=00000000" />
-
-<details>
-<summary>📈 Contribution activity graph</summary>
-<br>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yuv1008&theme=tokyo-night&hide_border=true&bg_color=00000000&area=true" />
-</details>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yuv1008/Yuv1008/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Yuv1008/Yuv1008/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-
-<details>
-<summary>🎮 Also into</summary>
-<br>
-
-Game development in Unreal Engine, video editing, and interface design. Mostly for fun, occasionally it leaks into the real projects.
-
-</details>
-
-<div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 </div>
