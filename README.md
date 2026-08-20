@@ -1,70 +1,197 @@
 <div align="center">
 
-# Hi, I'm Yuvraj 👋
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=61DAFB&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Yuvraj+%F0%9F%91%8B;Full-stack+engineer+%2B+applied+ML;Shipping+FULLTIME+%E2%80%94+7+live+games;Building+Relay+%E2%80%94+a+job+queue+in+Java+21;New+Grad+SWE+2027" alt="Typing SVG" />
 
-**Full-stack engineer · Applied ML · Currently building UniHelp**
+<br>
 
+<a href="https://playfulltime.com"><img src="https://img.shields.io/badge/🎮_Play_FULLTIME-000000?style=for-the-badge&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/YOUR-VANITY-URL/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:yuvgoraya23799@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://playfulltime.com"><img src="https://img.shields.io/badge/FULLTIME-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/🎓_Grad-December_2026-7F52FF?style=flat-square" />
+<img src="https://img.shields.io/badge/📍_Location-Surrey,_BC-1D9E75?style=flat-square" />
+<img src="https://img.shields.io/badge/💼_Status-Open_to_New_Grad_SWE-D85A30?style=flat-square" />
+<img src="https://komarev.com/ghpvc/?username=Yuv1008&style=flat-square&color=61DAFB&label=PROFILE+VIEWS" />
 
 </div>
 
 ---
 
-Computer Information Systems student at the University of the Fraser Valley — Software Development major, AI/ML minor — **graduating December 2026**. I build full-stack products end to end and I ship them.
+<div align="center">
 
-- 🚀 Shipped **[FULLTIME](https://playfulltime.com)** — seven live sports puzzle games on four shared engines
-- 🔭 Building **UniHelp**, an AI campus assistant with RAG over institutional documents
-- ⚙️ Building **Relay**, a distributed job queue in Java 21 modeled on Amazon SQS
-- 🌱 Going deep on distributed systems, data structures & algorithms, and system design
-- ⚡ Trilingual in English, Hindi and Punjabi. Messi fan. Will argue about it.
+### 👇 Everything below is expandable — click to explore
 
-**Open to New Grad Software Engineer roles starting 2027.**
+</div>
 
 ---
 
-## 🚀 Projects
+<details open>
+<summary><h2>🚀 &nbsp;Projects &nbsp;<sub><i>(click any to expand)</i></sub></h2></summary>
 
-### [FULLTIME](https://playfulltime.com) — multi-sport puzzle platform · [`repo`](https://github.com/Yuv1008/Fulltime)
+<br>
 
-Seven live sports games built on four shared engines rather than seven separate implementations. A sport-agnostic Postgres schema (`entities` / `entity_facts` with a `jsonb` meta column) supports every sport without per-sport tables. Daily puzzles are generated deterministically with a seeded PRNG (mulberry32 + FNV-1a) keyed to the UTC date, so every player worldwide gets the identical puzzle.
+<details open>
+<summary><b>🎮 &nbsp;FULLTIME</b> — multi-sport puzzle platform &nbsp;<code>LIVE</code></summary>
 
-`Next.js 14` · `TypeScript` · `PostgreSQL` · `Supabase` · `Vercel`
+<br>
 
----
+> **Seven live sports games. Four shared engines. One daily puzzle for everyone.**
 
-### Relay — distributed job queue *(in progress)*
+<a href="https://playfulltime.com"><img src="https://img.shields.io/badge/▶_Live_Site-playfulltime.com-000000?style=for-the-badge" /></a>
+<a href="https://github.com/Yuv1008/Fulltime"><img src="https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github" /></a>
 
-A job queue modeled on Amazon SQS: at-least-once delivery, per-message visibility timeouts, and dead-letter routing after a configurable retry limit. Structured as a multi-module Gradle build separating the queue engine, API layer, and client library.
+**The interesting problem:** seven sports, but only four *kinds* of game. Building seven separate implementations would have meant seven codebases to maintain. Instead every sport plugs into a shared engine.
 
-`Java 21` · `PostgreSQL` · `Gradle`
-
----
-
-### UniHelp — AI campus assistant *(in progress)*
-
-A retrieval-augmented assistant that answers student questions from institutional documents, grounding every response in source material instead of model recall. I own the RAG pipeline — chunking, embeddings, and vector similarity search — plus the FastAPI backend and API contract.
-
-`React Native` · `Next.js` · `FastAPI` · `Supabase` · `pgvector` · `Claude API`
-
----
-
-### Insider Threat Detection — anomaly detection with autoencoders
-
-Unsupervised detection of anomalous user behaviour using an autoencoder and a variational autoencoder trained solely on normal activity. Deviations are flagged by reconstruction error, which means it catches threats it has never seen before.
-
-`Python` · `PyTorch` · `Pandas` · `NumPy`
-
----
+| Sport | Game | Engine |
+|:--|:--|:--|
+| ⚽ Football | Career Path | `careerPath` |
+| 🏀 Basketball | Career Path: NBA | `careerPath` |
+| 🏏 Cricket | Stat Attack | `higherLower` |
+| 🎾 Tennis | Grand Slam Duel | `higherLower` |
+| ⚾ Baseball | Diamond Legacy | `higherLower` |
+| 🏎️ F1 | Podium Order | `ordering` |
+| 🏉 Rugby | Nations Quiz | `quiz` |
 
 <details>
-<summary><b>Earlier projects</b></summary>
+<summary><i>→ How the architecture works</i></summary>
+
+<br>
+
+```mermaid
+graph TD
+    A[games/registry.ts<br/>single source of truth] --> B[careerPath]
+    A --> C[higherLower]
+    A --> D[ordering]
+    A --> E[quiz]
+    B --> F[(entities<br/>entity_facts)]
+    C --> F
+    D --> F
+    E --> F
+    G[seeding.ts<br/>mulberry32 + FNV-1a] --> B
+    G --> C
+    G --> D
+    G --> E
+```
+
+**Sport-agnostic schema.** Rather than seven sets of tables, everything lives in `entities` (any player, team, driver) and `entity_facts` (any fact about them), with per-sport variation held in a `jsonb` meta column.
+
+**Deterministic daily puzzles.** A seeded PRNG (mulberry32 + FNV-1a) keyed to the UTC date means every player worldwide gets the identical puzzle — with no coordination between clients and no server round-trip to decide what today's puzzle is.
+
+**Anonymous-first.** Stats, streaks, and XP live in localStorage and sync to Supabase only if you choose to sign in. No account required to play or to hit the leaderboard.
+
+</details>
+
+<code>Next.js 14</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Vercel</code>
+
+</details>
+
+<br>
+
+<details>
+<summary><b>⚙️ &nbsp;Relay</b> — distributed job queue &nbsp;<code>IN PROGRESS</code></summary>
+
+<br>
+
+> **A job queue modeled on Amazon SQS, written in Java 21.**
+
+Built to understand what actually happens inside a message queue — delivery guarantees, timeout handling, and what it takes for multiple consumers to poll the same table without stepping on each other.
+
+<details>
+<summary><i>→ Design goals</i></summary>
+
+<br>
+
+```mermaid
+graph LR
+    P[Producer] -->|enqueue| Q[(Queue)]
+    Q -->|dequeue| C1[Consumer 1]
+    Q -->|dequeue| C2[Consumer 2]
+    C1 -->|ack| Q
+    C2 -.->|timeout| Q
+    Q -->|N retries| D[(Dead letter)]
+```
+
+- **At-least-once delivery** — a message is never silently lost
+- **Visibility timeouts** — an in-flight message is hidden from other consumers, and reappears if the worker dies
+- **Dead-letter routing** — after a configurable retry limit, poison messages get quarantined instead of looping forever
+- **Multi-module Gradle build** — queue engine, API layer, and client library kept separate
+
+</details>
+
+<code>Java 21</code> <code>PostgreSQL</code> <code>Gradle</code>
+
+</details>
+
+<br>
+
+<details>
+<summary><b>🎓 &nbsp;UniHelp</b> — AI campus assistant &nbsp;<code>IN PROGRESS</code></summary>
+
+<br>
+
+> **Answers student questions from real institutional documents — not from model recall.**
+
+A retrieval-augmented assistant built with my brother. Every answer is grounded in a source document, which is the whole point: a campus assistant that confidently invents a tuition deadline is worse than no assistant at all.
+
+<details>
+<summary><i>→ The RAG pipeline</i></summary>
+
+<br>
+
+```mermaid
+graph LR
+    A[Campus docs] --> B[Chunking]
+    B --> C[Embeddings]
+    C --> D[(pgvector)]
+    E[Student question] --> F[Vector search]
+    D --> F
+    F --> G[Claude API]
+    G --> H[Grounded answer]
+```
+
+**What I own:** the retrieval pipeline end to end — chunking strategy, embedding generation, and vector similarity search over pgvector — plus the FastAPI backend and the API contract between us.
+
+</details>
+
+<code>React Native</code> <code>Next.js</code> <code>FastAPI</code> <code>Supabase</code> <code>pgvector</code> <code>Claude API</code>
+
+</details>
+
+<br>
+
+<details>
+<summary><b>🔐 &nbsp;Insider Threat Detection</b> — anomaly detection &nbsp;<code>COMPLETE</code></summary>
+
+<br>
+
+> **Catches threats it has never seen before.**
+
+An autoencoder and a variational autoencoder trained *only* on normal user activity. Anything the model reconstructs badly is, by definition, unlike normal behaviour — which means it flags novel attack patterns that a supervised classifier trained on known threats would miss entirely.
+
+<details>
+<summary><i>→ Why unsupervised</i></summary>
+
+<br>
+
+Labelled insider-threat data barely exists, and the threats that matter most are the ones nobody has catalogued yet. Training on normal behaviour sidesteps both problems: you only need to define *normal*, and everything else falls out as deviation measured by reconstruction error.
+
+</details>
+
+<code>Python</code> <code>PyTorch</code> <code>Pandas</code> <code>NumPy</code>
+
+</details>
+
+<br>
+
+<details>
+<summary><b>📦 &nbsp;Earlier projects</b></summary>
 
 <br>
 
 | Project | What it is | Stack |
-|---|---|---|
+|:--|:--|:--|
 | EventSphere | Full-stack event management platform | React · FastAPI · SQLite |
 | CHRONOVAULT | Premium single-page retail experience | React · Tailwind · Framer Motion |
 | Hoppy Tales | Android storytelling app | Kotlin · Android SDK |
@@ -74,9 +201,14 @@ Unsupervised detection of anomalous user behaviour using an autoencoder and a va
 
 </details>
 
+</details>
+
 ---
 
-## 🛠️ Stack
+<details open>
+<summary><h2>🛠️ &nbsp;Stack</h2></summary>
+
+<br>
 
 <div align="center">
 
@@ -113,13 +245,72 @@ Unsupervised detection of anomalous user behaviour using an autoencoder and a va
 
 </div>
 
+</details>
+
 ---
 
-## 📊 Stats
+<details>
+<summary><h2>🎓 &nbsp;Education &amp; background</h2></summary>
+
+<br>
+
+**Bachelor of Computer Information Systems** — University of the Fraser Valley
+Software Development major · AI/ML minor · Expected December 2026
+**GPA 3.86 / 4.33** · Dean's List, 4 consecutive terms
+
+**Coursework:** Data Structures & Algorithms · Design & Analysis of Algorithms · Distributed Computing & MapReduce · Operating Systems · Database Systems · Software Development Best Practices · Machine Learning
+
+<br>
+
+**Currently:** AI Intern at InAmigos Foundation · 3+ years part-time at Costco Wholesale alongside a full course load
+
+**Trilingual** in English, Hindi and Punjabi. Messi fan. Will argue about it.
+
+</details>
+
+---
+
+<details>
+<summary><h2>📊 &nbsp;Stats</h2></summary>
+
+<br>
 
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yuv1008&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yuv1008&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=00000000&langs_count=8" />
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=Yuv1008&theme=tokyonight&hide_border=true&background=00000000" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yuv1008&theme=tokyo-night&hide_border=true&bg_color=00000000&area=true" />
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yuv1008/Yuv1008/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Yuv1008/Yuv1008/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+</details>
+
+---
+
+<div align="center">
+
+### 💬 Ask me about
+
+`RAG pipelines` · `shipping side projects around a part-time job` · `why seven games only needed four engines`
+
+<br>
+
+**Open to New Grad Software Engineer roles starting 2027.**
+
+<a href="mailto:yuvgoraya23799@gmail.com"><img src="https://img.shields.io/badge/Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 </div>
