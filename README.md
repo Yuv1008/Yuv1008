@@ -264,7 +264,7 @@ Software Development major · AI/ML minor · Expected December 2026
 
 <br>
 
-**Currently:** AI Intern at InAmigos Foundation · 3+ years part-time at Costco Wholesale alongside a full course load
+**Currently:** AI Intern at InAmigos Foundation and Labmentix· 3+ years part-time at Costco Wholesale alongside a full course load
 
 **Trilingual** in English, Hindi and Punjabi. Messi fan. Will argue about it.
 
