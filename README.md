@@ -1,4 +1,4 @@
-div align="center">
+<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=61DAFB&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Yuvraj+%F0%9F%91%8B;Full-stack+engineer+%2B+applied+ML;Shipping+FULLTIME+%E2%80%94+7+live+games;Building+Relay+%E2%80%94+a+job+queue+in+Java+21;New+Grad+SWE+2027" alt="Typing SVG" />
 
